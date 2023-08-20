@@ -19,13 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\entities\Entity.cpp" />
     <ClCompile Include="src\game\Game.cpp" />
     <ClCompile Include="src\graphics\Renderer.cpp" />
+    <ClCompile Include="src\input\InputManager.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\entities\Entity.h" />
     <ClInclude Include="include\game\Game.h" />
     <ClInclude Include="include\graphics\Renderer.h" />
+    <ClInclude Include="include\input\InputManager.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

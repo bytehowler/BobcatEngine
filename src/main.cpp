@@ -1,12 +1,11 @@
 #include "game/Game.h"
 
-
 int main() 
 {
-	Game* game = new Game();
+	Game game;
 
-	game->Init();
-	game->Run();
+	game.Init();
+	game.Run();
 
 	return 0;
 }

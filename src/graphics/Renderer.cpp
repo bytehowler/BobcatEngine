@@ -17,6 +17,7 @@ void Renderer::DrawText(std::string string, int fontSize, sf::Color fontColor)
 
 	if (!font.loadFromFile("arial.ttf"))
 	{
+		// TODO: Make the program shutdown.
 	}
 
 	text.setFont(font);
