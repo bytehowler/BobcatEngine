@@ -2,7 +2,9 @@
 
 Game::Game() : m_isRunning(true)
 {
+	m_renderer = std::make_unique<Renderer>(m_window);
 }
+
 
 void Game::Init()
 {
@@ -37,8 +39,8 @@ void Game::Update()
 
 void Game::Render()
 {
-	m_window.clear();
-	m_window.display();
+	m_renderer->Clear();
+	m_renderer->Display();
 }
 
 bool Game::IsRunning() 
