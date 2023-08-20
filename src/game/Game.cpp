@@ -39,7 +39,10 @@ void Game::Update()
 
 void Game::Render()
 {
+	sf::CircleShape shape = sf::CircleShape(10.0f);
+
 	m_renderer->Clear();
+	m_renderer->DrawText("test");
 	m_renderer->Display();
 }
 
